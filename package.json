@@ -1,0 +1,10 @@
+{
+  "name": "node-lab-06-async",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node exercise.js",
+    "test": "node --test --test-force-exit \"test/**/*.test.js\"",
+    "submit": "node scripts/submit.cjs"
+  }
+}
