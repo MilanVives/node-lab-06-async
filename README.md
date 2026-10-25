@@ -10,7 +10,7 @@ npm test
 npm start          # runs notifyCustomer(1): takes about 12 seconds
 ```
 
-`npm test` runs the same checks as the autograder (the tests fake the timers, so they run instantly). Run a single requirement with `npm test -- --test-name-pattern="^R1:"`.
+`npm test` runs the same checks as the autograder (the tests fake the timers, so they run instantly). Run a single requirement with `node --test --test-name-pattern="^R1:" "test/**/*.test.js"`.
 
 All code is in `exercise.js`. Every function waits 4 seconds with `setTimeout` to simulate a slow database or mail server. Keep the 4-second delays.
 
